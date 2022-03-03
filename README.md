@@ -7,4 +7,4 @@ https://github.com/kasper/phoenix/
 
 config file: .phoenix.js
 
-Copyright (c) 2018 Copyright aglahn All Rights Reserved.
+Copyright (c) 2022 Copyright aglahn All Rights Reserved.
