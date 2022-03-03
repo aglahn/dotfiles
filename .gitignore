@@ -1,0 +1,15 @@
+bin
+target
+.classpath
+.project
+.settings
+.DS_Store
+
+/.metadata/
+/.settings/
+/.project
+node-modules
+/frontend/
+
+mydb.db
+tokens.db
