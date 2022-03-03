@@ -1,3 +1,4 @@
+// Center Main Window
 Key.on('z', ['ctrl', 'shift'], () => {
   const screen = Screen.main().flippedVisibleFrame();
   const window = Window.focused();
