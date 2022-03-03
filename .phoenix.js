@@ -1,3 +1,11 @@
+// function launching programs
+function bindLaunch(key, modifiers, appName) {
+    Key.on(key, modifiers, function() {
+        App.launch(appName).focus()
+    });
+  }
+
+
 // Center Main Window
 Key.on('z', ['ctrl', 'shift'], () => {
   const screen = Screen.main().flippedVisibleFrame();
@@ -10,3 +18,7 @@ Key.on('z', ['ctrl', 'shift'], () => {
     });
   }
 });
+
+ bindLaunch("t", ['ctrl', 'shift'], "Terminal");
+ bindLaunch("w", ['ctrl', 'shift'], "Webcam Plus");
+ bindLaunch("c", ['ctrl', 'shift'], "CamTwist");
