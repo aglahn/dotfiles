@@ -22,3 +22,8 @@ Key.on('z', ['ctrl', 'shift'], () => {
  bindLaunch("t", ['ctrl', 'shift'], "Terminal");
  bindLaunch("w", ['ctrl', 'shift'], "Webcam Plus");
  bindLaunch("c", ['ctrl', 'shift'], "CamTwist");
+
+Key.on('v', ['ctrl', 'shift'], () => {
+  App.launch("Webcam Plus").focus();
+  App.launch("CamTwist").focus();
+});
